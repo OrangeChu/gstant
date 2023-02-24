@@ -1,7 +1,7 @@
 version: '3'
 services:
   gstant:
-    build: orangechu777/gstant:latest
+    image: orangechu777/gstant:latest
     container_name: general-server-assistant
     restart: always
     ports:
