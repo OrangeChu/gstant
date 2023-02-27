@@ -1,7 +1,7 @@
 version: '3'
 services:
   gstant:
-    build: .
+    image: orangechu777/gstant:tagname
     container_name: general-server-assistant
     restart: always
     ports:
